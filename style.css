@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(#1363df, #47b5ff);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.main {
+  height: 480px;
+  width: 600px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+}
+.text-field {
+  background-color: aquamarine;
+
+  background-image: linear-gradient(#00000191, #00000193),
+    url("https://mcdn.wallpapersafari.com/374/18/58/e0DZW1.jpg");
+
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  padding: 10px;
+  text-align: center;
+}
+
+.text h2 {
+  color: #ffffff;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.text p {
+  color: #d3cfcf;
+  font-size: 13px;
+  line-height: 20px;
+}
+.input-field {
+  flex: 1.5;
+  padding-left: 40px;
+}
+
+.input-field h2 {
+  margin: 50px 0 20px 0;
+  font-size: 20px;
+}
+
+.input-field .input {
+  margin-bottom: 7px;
+  width: 200px;
+}
+
+.input-field .input label {
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.input-field .input input {
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 3px 5px;
+  width: 100%;
+}
+#button {
+  background-color: #1363df;
+  color: #ffffff;
+  margin: 10px 0;
+  border: none;
+  padding: 5px;
+}
+
+.input-field .input p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+}
